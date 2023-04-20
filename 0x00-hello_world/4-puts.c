@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*Description of the function
- *
+/**
+ *main description of this function
+ *Return 0 (success)
  * */
 int  main(void)
 { 
 puts("\"Programming is like building a multilingual puzzle");
-     return (0);
+return (0);
 }
 
