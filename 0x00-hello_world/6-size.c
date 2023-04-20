@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int  main(void)
 {
 	    printf("with proper grammar, but the outcome is a piece of art,\n");
 	        printf("Size of a char: %d byte(s),\n");
