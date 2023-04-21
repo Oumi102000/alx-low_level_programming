@@ -1,10 +1,17 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Prints the alphabet.
- * 
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyz
+char l;
+for (l = 'a'; l <= 'z'; l++)
+putchar(l);
+for (l = 'A'; l <= 'Z'; l++)
+putchar(l);
+putchar('\n');
+return (0);
+}
