@@ -16,8 +16,7 @@ int main(void)
  
  
  
- 
- *(p + 2) = 98;
+  *(p + 2) = 98;
 printf("a[2] = %d\n", a[2]);
 free(p);
 return (0);
